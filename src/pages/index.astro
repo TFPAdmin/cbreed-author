@@ -34,20 +34,32 @@
             background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            color: white;
+            color: #333;
+            position: relative;
         }
 
         .second-section h2 {
             text-align: center;
             margin-top: 0;
-            color: #fff;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+            color: #222;
+            text-shadow: none;
+            margin-bottom: 20px;
+        }
+
+        .second-section .text-box {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px 30px;
+            border-radius: 8px;
+            color: #222;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
         }
 
         .second-section p {
             font-size: 1.2em;
             line-height: 1.8;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+            color: #222;
+            text-shadow: none;
+            margin: 0;
         }
 
         h1 {
@@ -81,10 +93,12 @@
         <p>You can email them to me at <a href="mailto:book_ideas@cbreedauthor.com">book_ideas@cbreedauthor.com</a>.</p>
     </div>
 
-    <!-- Second Section with Rainbow Background -->
+    <!-- Second Section with Rainbow Background and Text Box -->
     <div class="second-section">
-        <h3>My Current Project!</h3>
-        <p>I am currently working on a book I think everybody will love. It is about a young man who finds out that his entire life is a lie. His mom has some explaining to do! And she better speak fast before he does something he’ll regret.</p>
+        <h2>My current project!</h2>
+        <div class="text-box">
+            <p>I am currently working on a book I think everybody will love. It is about a young man who finds out that his entire life is a lie. His mom has some explaining to do! And she better speak fast before he does something he’ll regret.</p>
+        </div>
     </div>
 
     <!-- Back to Top link -->
