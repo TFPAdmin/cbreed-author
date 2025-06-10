@@ -18,6 +18,25 @@
             background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
         }
 
+        /* Site Map Navigation */
+        .site-map {
+            background-color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .site-map a {
+            margin: 0 15px;
+            color: #6b4c9a;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .site-map a:hover {
+            text-decoration: underline;
+        }
+
         .main-section {
             max-width: 800px;
             margin: 60px auto;
@@ -42,7 +61,6 @@
             text-align: center;
             margin-top: 0;
             color: #222;
-            text-shadow: none;
             margin-bottom: 20px;
         }
 
@@ -57,14 +75,26 @@
         .second-section p {
             font-size: 1.2em;
             line-height: 1.8;
-            color: #222;
-            text-shadow: none;
             margin: 0;
+        }
+
+        .third-section {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 40px 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
 
         h1 {
             color: #2c3e50;
             margin-top: 0;
+            text-align: center;
+        }
+
+        h2 {
+            color: #2c3e50;
             text-align: center;
         }
 
@@ -85,31 +115,43 @@
     <!-- Rainbow Banner -->
     <div class="rainbow-banner"></div>
 
+    <!-- Site Map Navigation -->
+    <div class="site-map">
+        <a href="#top">Home</a>
+        <a href="#current-project">Current Project</a>
+        <a href="#contact">Contact</a>
+        <a href="#links">Links</a>
+    </div>
+
     <!-- Main Section -->
     <div class="main-section" id="top">
         <h1>Welcome to my website!</h1>
         <p>I am <strong>C. B. Reed</strong>! I am an <strong>Up and Coming ALASKAN</strong> author!</p> 
-		<p>I have lived in Alaska more than half my life and I absolutley LOVE it. It's my home!</p>
-		<p>I have had a love of reading since Middle School (JR High depending on where you're from) and have been dabbling in writing a book since High School. I finally thought "Why not, I've had this dream long enough, it's time to turn it in to reality, let's do this thing" And now here we are, working on finishing up my first book and learing to code a website while doing it!
-		<p>Once I finish my first book I'll figure out how to add a link to buy it on Amazon or the Apple Books Store. Sorry, no Barnes and Noble yet, I'm self publishing, maybe some day I'll get in to big book stores</p>
-		<br>
-		<br>
-		<br>
-        <p>If you have any questions or if you have some ideas for one of my books, let me know!</p>
+        <p>I have lived in Alaska more than half my life and I absolutely LOVE it. It's my home!</p>
+        <p>I have had a love of reading since Middle School (JR High depending on where you're from) and have been dabbling in writing a book since High School. I finally thought "Why not, I've had this dream long enough, it's time to turn it in to reality, let's do this thing!" And now here we are, working on finishing up my first book and learning to code a website while doing it!</p>
+        <p>Once I finish my first book, I'll figure out how to add a link to buy it on Amazon or the Apple Books Store. Sorry, no Barnes and Noble yet — I'm self-publishing. Maybe someday I'll get into big book stores.</p>
+        <br>
+        <br>
+        <br>
+        <p id="contact">If you have any questions or if you have some ideas for one of my books, let me know!</p>
         <p>You can email them to me at <a href="mailto:book_ideas@cbreedauthor.com">book_ideas@cbreedauthor.com</a>.</p>
     </div>
 
     <!-- Second Section with Rainbow Background and Text Box -->
-    <div class="second-section">
+    <div class="second-section" id="current-project">
         <h2>My current project!</h2>
         <div class="text-box">
             <p>I am currently working on a book I think everybody will love. It is about a young man who finds out that his entire life is a lie. His mom has some explaining to do! And she better speak fast before he does something he’ll regret.</p>
         </div>
     </div>
 
-	<div class="third-section">
-		<h2>Test Link Section</h2>
-		<div class="text-box">
-		<p> <a href="www.alyeskaservices.org">alyeskaservices.org</a>.</p>
+    <!-- Third Section with Test Link -->
+    <div class="third-section" id="links">
+        <h2>Test Link Section</h2>
+        <div class="text-box">
+            <p><a href="https://www.alyeskaservices.org" target="_blank">alyeskaservices.org</a></p>
+        </div>
+    </div>
+
 </body>
 </html>
