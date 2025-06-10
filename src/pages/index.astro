@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>C. B. Reed Author</title>
+  <meta charset="UTF-8">
+  <title>About Me - C. B. Reed Author</title>
   <meta name="description" content="Welcome to the official site of Alaskan author C. B. Reed" />
   <style>
     body {
@@ -12,6 +11,31 @@
       margin: 0;
       background-color: #FFC0CB;
       color: #333;
+    }
+
+    /* Rainbow Banner */
+    .rainbow-banner {
+      height: 80px;
+      background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    }
+
+    /* Site Map Navigation */
+    .site-map {
+      background-color: #fff;
+      padding: 10px 0;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .site-map a {
+      margin: 0 15px;
+      color: #6b4c9a;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .site-map a:hover {
+      text-decoration: underline;
     }
 
     .main-section, .second-section, .third-section {
@@ -53,20 +77,31 @@
 </head>
 <body>
 
+  <!-- Rainbow Banner -->
+  <div class="rainbow-banner"></div>
+
+  <!-- Site Map Navigation -->
+  <div class="site-map">
+    <a href="#top">Home</a>
+    <a href="#current-project">Current Project</a>
+    <a href="#contact">Contact</a>
+    <a href="#links">Links</a>
+  </div>
+
   <!-- About Me Section -->
-  <div class="main-section">
+  <div class="main-section" id="top">
     <h1>Welcome to my website!</h1>
     <p>I am <strong>C. B. Reed</strong>! I am an <strong>Up and Coming ALASKAN</strong> author!</p>
     <p>I have lived in Alaska more than half my life and I absolutely LOVE it. It's my home!</p>
     <p>I’ve loved reading since middle school and have been dabbling in writing since high school. I finally thought: “Why not? I've had this dream long enough—it’s time to turn it into reality!” So now here we are: I’m working on my first book and learning to code my own website while doing it!</p>
     <p>Once I finish my first book, I'll figure out how to link it on Amazon or Apple Books. No Barnes & Noble yet—I'm self-publishing for now, but who knows what the future holds?</p>
     <br>
-    <p>If you have any questions or ideas for one of my books, let me know!</p>
+    <p id="contact">If you have any questions or ideas for one of my books, let me know!</p>
     <p>You can email me at <a href="mailto:book_ideas@cbreedauthor.com">book_ideas@cbreedauthor.com</a>.</p>
   </div>
 
   <!-- Current Project Section -->
-  <div class="second-section">
+  <div class="second-section" id="current-project">
     <h2>My Current Project!</h2>
     <div class="text-box">
       <p>I am currently working on a book I think everybody will love. It’s about a young man who finds out that his entire life is a lie. His mom has some explaining to do—and she better speak fast before he does something he’ll regret.</p>
@@ -74,7 +109,7 @@
   </div>
 
   <!-- Additional Links Section -->
-  <div class="third-section">
+  <div class="third-section" id="links">
     <h2>Links</h2>
     <p><a href="https://www.alyeskaservices.org" target="_blank">alyeskaservices.org</a></p>
   </div>
