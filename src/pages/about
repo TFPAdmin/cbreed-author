@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About the Author</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 0;
+      background-color: #fdfdfd;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Rainbow Header */
+    .header {
+      background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+      color: #fff;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 2.8em;
+      font-weight: normal;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    .section {
+      padding: 30px 20px;
+    }
+
+    .section h2 {
+      color: #6b4c9a;
+      margin-top: 0;
+    }
+
+    .section p {
+      font-size: 1.1em;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #eee;
+      color: #777;
+      font-size: 0.9em;
+    }
+
+    a {
+      color: #6b4c9a;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Rainbow Header -->
+  <div class="header">
+    <h1>About the Author</h1>
+  </div>
+
+  <!-- Content Container -->
+  <div class="container">
+    <div class="section">
+      <h2>Hello, I'm C. B. Reed</h2>
+      <p>
+        I’m an <strong>Alaskan</strong> who is getting a start as an author! Writing has always been a dream of mine, and now I'm finally turning that dream into reality—one page at a time.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Why I Write</h2>
+      <p>
+        I write to explore the "what ifs," the untold truths, and the emotions that connect us all. My stories are inspired by imagination, personal growth, and the belief that fiction can sometimes speak the loudest truths.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Current Work</h2>
+      <p>
+        My debut project follows a young man who discovers that his entire life has been built on secrets—and his mother may hold the answers he’s been searching for. It’s a story about identity, trust, and the consequences of silence.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Let’s Connect</h2>
+      <p>
+        I love hearing from readers! If you have thoughts, questions, or even story ideas you'd like to share, feel free to email me at <a href="mailto:book_ideas@cbreedauthor.com">book_ideas@cbreedauthor.com</a>.
+      </p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    &copy; 2025 C. B. Reed. All rights reserved.
+  </div>
+
+</body>
+</html>
