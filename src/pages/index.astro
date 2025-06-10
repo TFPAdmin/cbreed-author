@@ -4,10 +4,6 @@
     <meta charset="UTF-8">
     <title>Welcome - C. B. Reed</title>
     <style>
-        html {
-            scroll-behavior: smooth; /* Smooth scroll for anchor links */
-        }
-
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -16,37 +12,54 @@
             color: #333;
         }
 
-        /* Rainbow Banner */
+        /* Enlarged Rainbow Banner */
         .rainbow-banner {
-            height: 20px;
+            height: 80px;
             background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
         }
 
-        .container {
-            max-width: 700px;
-            margin: 40px auto;
+        .main-section {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: auto;
             background: white;
-            padding: 30px;
-            border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .book-image {
+            flex: 1;
+            max-width: 400px;
+            padding-right: 30px;
+        }
+
+        .book-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .text-content {
+            flex: 2;
         }
 
         h1 {
             color: #2c3e50;
+            margin-top: 0;
         }
 
         a {
             color: #2980b9;
         }
 
-        .spacer {
-            height: 1000px;
-        }
-
         .back-to-top {
             display: block;
-            margin-top: 40px;
             text-align: center;
+            margin: 40px auto;
+            color: #2980b9;
         }
     </style>
 </head>
@@ -55,20 +68,21 @@
     <!-- Rainbow Banner -->
     <div class="rainbow-banner"></div>
 
-    <div class="container" id="top">
-        <h1>Welcome to my website!</h1>
-        <p>I am <strong>C. B. Reed</strong>! Here you will find all the books or stories I am currently working on or books I have completed!</p>
-        <p>If you have any questions or if you have some ideas for one of my books, let me know!</p>
-        <p>You can email them to me at <a href="mailto:book_ideas@cbreedauthor.com">book_ideas@cbreedauthor.com</a>.</p>
+    <!-- Main Section with Image and Text -->
+    <div class="main-section" id="top">
+        <div class="book-image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Rainbow_book_stack.jpg" alt="Rainbow Book">
+        </div>
+        <div class="text-content">
+            <h1>Welcome to my website!</h1>
+            <p>I am <strong>C. B. Reed</strong>! Here you will find all the books or stories I am currently working on or books I have completed!</p>
+            <p>If you have any questions or if you have some ideas for one of my books, let me know!</p>
+            <p>You can email them to me at <a href="mailto:book_ideas@cbreedauthor.com">book_ideas@cbreedauthor.com</a>.</p>
+        </div>
     </div>
-
-    <!-- Scrollable space (for demo) -->
-    <div class="spacer"></div>
 
     <!-- Back to Top link -->
-    <div class="container">
-        <a class="back-to-top" href="#top">Back to top ↑</a>
-    </div>
+    <a class="back-to-top" href="#top">Back to top ↑</a>
 
 </body>
 </html>
