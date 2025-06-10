@@ -15,8 +15,24 @@
 
     /* Rainbow Banner */
     .rainbow-banner {
-      height: 80px;
+      height: 150px;
       background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .rainbow-banner h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .rainbow-banner p {
+      margin: 5px 0 0;
+      font-size: 1.2em;
     }
 
     /* Site Map Navigation */
@@ -77,8 +93,11 @@
 </head>
 <body>
 
-  <!-- Rainbow Banner -->
-  <div class="rainbow-banner"></div>
+  <!-- Rainbow Banner with Title -->
+  <div class="rainbow-banner">
+    <h1>C. B. Reed</h1>
+    <p>An Alaskan Author</p>
+  </div>
 
   <!-- Site Map Navigation -->
   <div class="site-map">
