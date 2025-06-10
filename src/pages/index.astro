@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Welcome - C. B. Reed</title>
     <style>
+        html {
+            scroll-behavior: smooth; /* Smooth scroll for anchor links */
+        }
+
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -34,6 +38,16 @@
         a {
             color: #2980b9;
         }
+
+        .spacer {
+            height: 1000px;
+        }
+
+        .back-to-top {
+            display: block;
+            margin-top: 40px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -41,11 +55,19 @@
     <!-- Rainbow Banner -->
     <div class="rainbow-banner"></div>
 
-    <div class="container">
+    <div class="container" id="top">
         <h1>Welcome to my website!</h1>
         <p>I am <strong>C. B. Reed</strong>! Here you will find all the books or stories I am currently working on or books I have completed!</p>
         <p>If you have any questions or if you have some ideas for one of my books, let me know!</p>
         <p>You can email them to me at <a href="mailto:book_ideas@cbreedauthor.com">book_ideas@cbreedauthor.com</a>.</p>
+    </div>
+
+    <!-- Scrollable space (for demo) -->
+    <div class="spacer"></div>
+
+    <!-- Back to Top link -->
+    <div class="container">
+        <a class="back-to-top" href="#top">Back to top ↑</a>
     </div>
 
 </body>
