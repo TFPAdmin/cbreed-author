@@ -13,44 +13,40 @@
       color: #333;
     }
 
-    /* Rainbow Banner */
-    .rainbow-banner {
-      height: 150px;
+    /* Rainbow Header - Matching First Code */
+    .header {
       background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-    }
-
-    .rainbow-banner h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
-
-    .rainbow-banner p {
-      margin: 5px 0 0;
-      font-size: 1.2em;
-    }
-
-    /* Site Map Navigation */
-    .site-map {
-      background-color: #fff;
-      padding: 10px 0;
+      padding: 40px 20px;
       text-align: center;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      color: white;
     }
 
-    .site-map a {
-      margin: 0 15px;
-      color: #6b4c9a;
+    .header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+
+    .header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    /* Site Map Navigation - Matching First Code */
+    nav.site-map {
+      background-color: #333;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    nav.site-map a {
+      color: white;
       text-decoration: none;
+      margin: 0 15px;
       font-weight: bold;
+      font-size: 1em;
     }
 
-    .site-map a:hover {
+    nav.site-map a:hover {
       text-decoration: underline;
     }
 
@@ -93,20 +89,19 @@
 </head>
 <body>
 
-  <!-- Rainbow Banner with Title -->
-  <div class="rainbow-banner">
+  <!-- Rainbow Header - Matching First Code -->
+  <div class="header">
     <h1>C. B. Reed</h1>
     <p>An Alaskan Author</p>
   </div>
 
-  <!-- Site Map Navigation -->
-  <div class="site-map">
+  <!-- Site Map Navigation - Matching First Code -->
+  <nav class="site-map">
     <a href="#top">Home</a>
     <a href="about">About</a>
     <a href="currentworks">Current Works</a>
-    <!-- Added Bookshelf link -->
     <a href="https://bookshelf.cbreedauthor.com" target="_blank">Bookshelf</a>
-  </div>
+  </nav>
 
   <!-- About Me Section -->
   <div class="main-section" id="top">
@@ -115,11 +110,10 @@
     I have lived in Alaska more than half my life and I absolutely LOVE it. It's my home!
     I’ve loved reading since middle school and have been dabbling in writing since high school. I finally thought: “Why not? I've had this dream long enough—it’s time to turn it into reality!” So now here we are: I’m working on my first book and learning to code my own website while doing it!
     Once I finish my first book, I'll add a link to it on Amazon or Apple Books. No Barnes & Noble yet—I'm self-publishing for now, but who knows what the future holds?</p>
-    </p>
-		<br>
+    <br>
     <p id="contact">If you have any questions or ideas for one of my books, let me know!
     You can email me at <a href="mailto:book_ideas@cbreedauthor.com">book_ideas@cbreedauthor.com</a>.
-		</p>
+    </p>
   </div>
 
   <!-- Current Project Section -->
@@ -127,7 +121,7 @@
     <h2>My Current Project!</h2>
     <div class="text-box">
       <p>I am currently working on my first book! If you want to learn more or read a quick excerpt, go to my Current Works page!</p>
-		<a href="currentworks">Current Works</a>
+      <a href="currentworks">Current Works</a>
     </div>
   </div>
 
